@@ -2,12 +2,14 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav>
-      <h2>Pangisha</h2>
+    <nav className="bg-blue-700 text-white p-4 flex justify-between items-center">
+      <h1 className="text-2xl font-bold">Pangisha</h1>
 
-      <Link to="/">Home</Link> |{" "}
-      <Link to="/properties">Properties</Link> |{" "}
-      <Link to="/favorites">Favorites</Link>
+      <div className="space-x-4">
+        <Link to="/">Home</Link>
+        <Link to="/properties">Properties</Link>
+        <Link to="/favorites">Favorites</Link>
+      </div>
     </nav>
   );
 }
