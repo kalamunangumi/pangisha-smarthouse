@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import axios from "axios";
-import loginBackground from "../assets/Image.jpg";
+import loginBackground from "../assets/Image.png";
 
 export default function ForgotPassword() {
 
