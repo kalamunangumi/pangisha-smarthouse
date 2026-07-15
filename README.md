@@ -186,4 +186,5 @@ localStorage.setItem("token", token);
 
 Axios automatically attaches the token to protected requests.
 
+
 ---

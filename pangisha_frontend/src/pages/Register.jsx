@@ -90,6 +90,11 @@ export default function Register() {
 
       navigate("/login");
     } catch (error) {
+      
+      console.log(error);
+      console.log(error.response);
+      console.log(error.message);
+
       Swal.fire({
         icon: "error",
         title: "Registration Failed",
